@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is that weird icon? I can't boot up!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #000000;
+        }
+        h1 {
+            color: #808080;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #000000;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .step {
+            margin-bottom: 20px;
+        }
+        .step h2 {
+            margin-top: 0;
+            color: #bada55;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #ffffff;
+            background: #000000;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        li:hover {
+            background: #282929;
+        }
+        strong {
+            color: #bada55;
+        }
+        a {
+            color: #808080;
+            text-decoration: none;
+            border-bottom: 2px solid #808080;
+            transition: color 0.3s, border-bottom-color 0.3s;
+        }
+        a:hover {
+            color: #808080;
+            border-bottom-color: #808080;
+        }
+        p {
+            background: #000000;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>What is that weird icon? I can't boot up!</h1>
+        <div class="step">
+            <h2>1. Restart Your Mac</h2>
+            <ul>
+                <li>1) Press and hold the power button to turn off your Mac.</li>
+                <li>2) Wait a few seconds, then press the power button again to turn it on.</li>
+            </ul>
+        </div>
+        <div class="step">
+            <h2>2. Check Startup Disk</h2>
+            <ul>
+                <li>1) Press and hold the <strong>Option</strong> key immediately after turning on your Mac.</li>
+                <li>2) Select your startup disk from the list of available disks (usually the main Disk should be labeled as Macintosh HD).</li>
+            </ul>
+        </div>
+        <div class="step">
+            <h2>3. Reset NVRAM/PRAM (Only for Intel-based Macs)</h2>
+            <ul>
+                <li>1) Shut down your Mac.</li>
+                <li>2) Turn it on and immediately press and hold <strong>Option + Command + P + R</strong> for about 20 seconds.</li>
+                <li>3) Release the keys and let your Mac continue to start up normally.</li>
+                <li>4) If you're using M1, M2 or M3 Macs, the above doesn't apply. Move on to the next steps!</li>
+            </ul>
+        </div>
+        <div class="step">
+            <h2>4. Use Disk Utility in macOS Recovery</h2>
+            <ul>
+                <li>1) Turn off your Mac.</li>
+                <li>2) Turn it on and immediately press and hold <strong>Command + R</strong> until you see the Apple logo or a spinning globe (Intel-based Macs). If you're using M1, M2 or M3, press and hold the Power Button until you see a message that says 'Continue to Hold for Startup Options'.</li>
+                <li>3) Select <strong>Disk Utility</strong>, then click <strong>Continue</strong>.</li>
+                <li>4) Select your startup disk and click <strong>First Aid</strong> to check for and repair disk errors.</li>
+            </ul>
+        </div>
+        <div class="step">
+            <h2>5. Reinstall macOS</h2>
+            <ul>
+                <li>1) If Disk Utility finds no errors or repairs the disk but the problem persists, you may need to reinstall macOS.</li>
+                <li>2) In macOS Recovery, select <strong>Reinstall macOS</strong> and follow the on-screen instructions.</li>
+            </ul>
+        </div>
+                <div class="step">
+            <h2>Need more help? Above steps don't work? Pop by our office for assistance! :)</h2>
+        </div>
+    </div>
+</body>
+</html>
